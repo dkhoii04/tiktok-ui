@@ -36,7 +36,7 @@ function Button({
       });
    }
 
-   // to: link ngoài, href: thẻ a
+   // to: link nội bộ, href: thẻ a (ngoại)
    if (to) {
       props.to = to;
       Comp = Link;
@@ -46,7 +46,8 @@ function Button({
    }
 
    const classes = cx('wrapper', {
-      [primary]: className, // TH muốn truyền className bên ngoài vào (css riêng cho button)
+      [className]: className, // TH muốn truyền className bên ngoài vào (css riêng cho button)
+      primary,
       outline,
       rounded,
       text,
