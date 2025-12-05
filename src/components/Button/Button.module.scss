@@ -1,13 +1,14 @@
 .wrapper {
-   display: inline-flex;   // nếu thêm icon vào button
+   display: inline-flex; // nếu thêm icon vào button
    align-items: center;
    justify-content: center;
-   
+
    min-width: 100px;
    padding: 9px 16px;
    border-radius: 4px;
    font-size: 1.6rem;
    font-weight: 700;
+   font-family: 'ProximaNova', sans-serif;
    cursor: pointer;
    background-color: var(--white);
    border: 1px solid transparent;
@@ -29,7 +30,8 @@
    margin-left: 8px;
 }
 
-.icon {       //Trick với icon để set co dãn tới (chữ)
+.icon {
+   //Trick với icon để set co dãn tới (chữ)
    display: inline-block;
    width: 24px;
    text-align: center;
