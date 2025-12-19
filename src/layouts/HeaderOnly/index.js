@@ -1,4 +1,4 @@
-import Header from '~/layouts/components/Header'; //do trùng Header nên import riêng
+import Header from '~/layouts/components/Header/Header'; //do trùng Header nên import riêng
 
 function HeaderOnly({ children }) {
     return (
